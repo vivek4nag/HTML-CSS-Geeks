@@ -6,3 +6,6 @@
 
 # basic cat album
 [click here to open cat album](https://vivek4nag.github.io/HTML-CSS-Geeks/03_html_cw_02/)
+
+# basic table
+[click here to open table](https://vivek4nag.github.io/HTML-CSS-Geeks/04_html_hw_02/)
