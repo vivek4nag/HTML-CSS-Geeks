@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+</head>
+<body>
+    <form action="submit.html" method="get">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <div class="name">
+                <label for="first_name">First Name : </label>
+                <input id="first_name" name="first_name" type="text" required>
+                <br><br>
+
+                <label for="mid_name">Middle Name :</label>
+                <input id="mid_name" name="mid_name" type="text">
+                <br><br>
+
+                <label for="last_name">Last Name</label>
+                <input id="last_name" type="text" name="last_name" >
+                <br><br>
+            </div>
+
+            <div class="course">
+                <br>
+                <label for="select_course">Course: </label>
+                <select name="select_course" id="select_course">
+                    <option value="course" selected>course</option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="btech">B.Tech</option>
+                    <option value="mca">MCA</option>
+                    <option value="bca">BCA</option>
+                    <option value="bsc">BSC</option>
+                    <option value="msc">MSC</option>
+                </select>
+                <br><br>
+            </div>
+
+            <div class="gender">
+                <label for="gender_select">Gender :</label>
+                <br>
+
+                <input id="male" type="radio" name="gender">
+                <label for="male">Male</label>
+                <br>
+
+                <input id="female" type="radio" name="gender">
+                <label for="female">Female</label>
+                <br>
+                
+                <input id="other" type="radio" name="gender"> 
+                <label for="other">Others</label>
+                <br><br>
+            </div>
+
+            <div class="dateOfBirth">
+                <label for="dob">DOB</label>
+                <input type="datetime-local" name="dob" id="dob">
+                <br><br>
+            </div>
+
+            <div class="contacts">
+                <label for="phone">Mobile Number: </label>
+                <input type="text" name="country_code" id="country_code" value="+91" size="1" disabled>
+                <input type="tel" name="ph_no" id="ph_no" size="10" minlength="10">
+                <br><br>
+            </div>
+
+            <div class="address">
+                <label for="address">Address: </label>
+                <br>
+                <textarea name="address" id="address" 
+                cols="50" rows="6" 
+                placeholder="enter your address here"></textarea>
+                <br><br>
+            </div>
+
+            <div class="email">
+                <label for="emailid">Email: </label>
+                <input type="email" name="emailid" id="emailid">
+                <br><br>
+            </div>
+
+            <div class="password_entry">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" minlength="6" maxlength="14" required>
+                <br><br>
+
+                <label for="re_password">Re-type Password: </label>
+                <input type="password" name="re_password" id="re_password" minlength="6" maxlength="14" required>
+                <br><br>
+            </div>
+
+            <div class="tnc">
+                <input type="checkbox" id="condition" name="condition" required>
+                <label for="conditions">Agree to terms & condition</label>
+                <br><br>
+            </div>
+
+            <div class="last">
+                <label for="file">Choose File</label>
+                <input type="file" id="file" name="file">
+                <br><br>
+
+                <label for="color">Choose color</label>
+                <input type="color" name="color" id="color">
+                <br><br>
+            </div>
+
+            
+            <div>
+                <button class="reset">Reset</button>
+                <button class="submit">Submit</button>
+            </div>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
