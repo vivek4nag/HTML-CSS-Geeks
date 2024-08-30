@@ -10,5 +10,8 @@
 # 4. basic table
 [click here to open basic table](https://vivek4nag.github.io/HTML-CSS-Geeks/04_html_hw_02/)
 
-# 5. basic form
+# 5. Basic Personal Information form
 [click here to open form](https://vivek4nag.github.io/HTML-CSS-Geeks/05_html_cw_03/)
+
+# 6. Basic Form
+[click here to open form](https://vivek4nag.github.io/HTML-CSS-Geeks/06_html_hw_03/)

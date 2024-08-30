@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: #414141;color: white;">
+    <form action="submit.html" method="get">
+        <p>Perosnal Detals</p>
+        <div class="salute">
+            <label for="salutation">Salutation</label>
+            <br>
+            <select name="salutation" id="salutation">
+                <option value="none">none</option>
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+            </select>
+            <br><br>
+        </div>
+        
+        <div class="name">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required placeholder="enter First Name">
+            <br><br>
+
+            <label for="last_name">Last Name: </label>
+            <input type="text" id="last_name" name="last_name" placeholder="enter Last Name">
+            <br><br>
+        </div>
+
+        
+        <div class="gender">
+            <label for="gender_select">Gender</label>
+            <input id="male" type="radio" name="gender">
+            <label for="male">Male</label>
+
+            <input id="female" type="radio" name="gender">
+            <label for="female">Female</label>
+            <br><br>
+        </div>
+        
+
+        <div class="emailID">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" readonly value="abcd@gmail.com">
+            <br><br>
+        </div>
+
+        <div class="birth">
+            <label for="dob">Date of Birth</label>
+            <input type="date">
+            <br><br>
+        </div>
+        
+        <div class="thikana">
+            <label for="address">Address: </label><br>
+            <textarea name="address" id="address"></textarea>
+            <br><br>
+
+        </div>
+
+        <button>Submit Query</button>
+
+    </form>
+    
+</body>
+</html>
