@@ -21,3 +21,6 @@
 
 # 8. Use of iframe
 [click here to open page](https://vivek4nag.github.io/HTML-CSS-Geeks/08_html_hw_04/)
+
+# 9. Weekly test-2
+[click here to open page](https://vivek4nag.github.io/HTML-CSS-Geeks/09_weekly_test_2/)
