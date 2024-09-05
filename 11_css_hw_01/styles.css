@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),  url(images/netflix-background-image.jpg); 
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', Courier, monospace;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+#button{
+    display: flex;
+    background-color: red;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    gap: 5px;
+    width: 6vw;
+    padding: 5% 8%;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#button:hover{
+    background-color: rgb(165, 0, 0);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    .writting{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 9vh;
+
+        & > h2{
+            font-weight: 800;
+            font-size: 3.5em;
+        }
+
+        & > h5{
+            font-weight: 500;
+            font-size: 1.2em;
+            padding-bottom: 8%;
+        }
+    }
+
+}
+
+.registration{
+    display: flex;
+    gap: 4px;
+    padding-top: 1.5%;
+
+    .email{
+        width: 25vw;
+        height: 8vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.724), rgba(0, 0, 0, 1));
+        padding-left: 15px;
+        font-size: medium;
+        border: 1px solid rgb(145, 133, 133);
+        border-radius: 5px;
+        color: white;
+    }
+
+    #get-started{
+        background-color: red;
+        color: white;
+        padding: 2%;
+        font-size: large;
+        width: 10vw;
+        height: 8.2vh;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #get-started:hover{
+        background-color: rgb(119, 5, 5);
+    }
+}
+
+
+
