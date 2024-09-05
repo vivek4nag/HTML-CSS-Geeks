@@ -24,3 +24,8 @@
 
 # 9. Weekly test-2
 [click here to open page](https://vivek4nag.github.io/HTML-CSS-Geeks/09_weekly_test_2/)
+
+# 10 Coming Soon
+
+# 11 NetFlix
+[click here to open Netflix](https://vivek4nag.github.io/HTML-CSS-Geeks/11_css_hw_01/)
