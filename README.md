@@ -27,5 +27,5 @@
 
 # 10 Coming Soon
 
-# 11 NetFlix
-[click here to open Netflix](https://vivek4nag.github.io/HTML-CSS-Geeks/11_css_hw_01/)
+# 11 NetFlix Clone
+[click here to open Netflix clone](https://vivek4nag.github.io/HTML-CSS-Geeks/11_css_hw_01/)
