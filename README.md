@@ -7,7 +7,7 @@
 # 3. Basic cat album
 [click here to open cat album](https://vivek4nag.github.io/HTML-CSS-Geeks/03_html_cw_02/)
 
-# 4. Basic table
+# 4. Basic Table
 [click here to open basic table](https://vivek4nag.github.io/HTML-CSS-Geeks/04_html_hw_02/)
 
 # 5. Basic Personal Information form
@@ -25,7 +25,8 @@
 # 9. Weekly test-2
 [click here to open page](https://vivek4nag.github.io/HTML-CSS-Geeks/09_weekly_test_2/)
 
-# 10 Coming Soon
+# 10 Camper Cafe
+[click here to open Camper Cafe](https://vivek4nag.github.io/HTML-CSS-Geeks/10_css_cw_01/)
 
 # 11 NetFlix Clone
 [click here to open Netflix clone](https://vivek4nag.github.io/HTML-CSS-Geeks/11_css_hw_01/)
