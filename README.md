@@ -31,8 +31,8 @@
 # 11. NetFlix Clone
 [click here to open Netflix clone](https://vivek4nag.github.io/HTML-CSS-Geeks/11_css_hw_01/)
 
-# 12. markers
-[click here to open Markers](https://vivek4nag.github.io/HTML-CSS-Geeks/12_css_cw_02/)
+# 12. Color markers
+[click here to open Color Markers](https://vivek4nag.github.io/HTML-CSS-Geeks/12_css_cw_02/)
 
 # 13 Construction Site
 [click here to open Mazdoori Site](https://vivek4nag.github.io/HTML-CSS-Geeks/13_css_hw_02/)
