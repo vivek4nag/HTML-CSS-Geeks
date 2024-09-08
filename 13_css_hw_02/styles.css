@@ -47,13 +47,20 @@
     justify-content: center;
     /* align-items: center; */
     background-color: #414141;
+    width: 100%;
+    /* gap: 50px; */
     /* background: linear-gradient(-45deg,rgba (0, 0, 0, 0.1), rgba (0, 0, 0, 0.5), rgba(0, 0, 0, 1)); */
 
     .picture{
-        width: 33%;
-        height: 90%;
+        min-width: 33%;
+        min-height: 500px;
         /* padding: 1.5%; */
         margin: 1.5%;
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
     }
     
 }
