@@ -38,4 +38,4 @@
 [click here to open Mazdoori Site](https://vivek4nag.github.io/HTML-CSS-Geeks/13_css_hw_02/)
 
 # 14. Weekly test-3
-[click here to open Chappal ki Dukan](https://vivek4nag.github.io/HTML-CSS-Geeks/14_weekly_test_03/)
+[click here to open Chappal ki Dukan](https://vivek4nag.github.io/HTML-CSS-Geeks/14_weekly_test_3/)
