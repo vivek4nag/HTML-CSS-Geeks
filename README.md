@@ -39,3 +39,9 @@
 
 # 14. Weekly test-3
 [click here to open Chappal ki Dukan](https://vivek4nag.github.io/HTML-CSS-Geeks/14_weekly_test_3/)
+
+# 15. Nutrition Info
+[click here to open Nutrition Info](https://vivek4nag.github.io/HTML-CSS-Geeks/15_css_cw_03/)
+
+# 16 
+[click here to open Blog Website](https://vivek4nag.github.io/HTML-CSS-Geeks/16_css_hw_03/)
