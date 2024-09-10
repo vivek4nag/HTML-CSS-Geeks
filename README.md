@@ -43,5 +43,5 @@
 # 15. Nutrition Info
 [click here to open Nutrition Info](https://vivek4nag.github.io/HTML-CSS-Geeks/15_css_cw_03/)
 
-# 16 
+# 16 Blog Website
 [click here to open Blog Website](https://vivek4nag.github.io/HTML-CSS-Geeks/16_css_hw_03/)
