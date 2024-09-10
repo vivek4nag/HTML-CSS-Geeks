@@ -45,3 +45,6 @@
 
 # 16 Blog Website
 [click here to open Blog Website](https://vivek4nag.github.io/HTML-CSS-Geeks/16_css_hw_03/)
+
+# 17 Shoe Page
+[click here to open Shoe Page](https://vivek4nag.github.io/HTML-CSS-Geeks/17_css_cw_04/)

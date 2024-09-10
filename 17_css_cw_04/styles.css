@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+h1{
+    margin: 0px;
+    font-size: xx-large;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+}
+body{
+    background-color: lightgrey;
+    font-family: "Nerko One", cursive;
+    font-size: 16px;
+
+}
+
+section{
+    max-width: 40%;
+    display: inline-block;
+}
+section:first-child{ 
+    margin-right: 20%;
+    color: rgb(249, 240, 240);
+    text-align:left
+}
+.buy-button, .learn-button{
+    font-family: "Nerko One", cursive;
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: larger;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    transition: 0.4s;
+    box-shadow: 0 2px 2px black;
+}
+.buy-button:hover{
+    background-color: rgb(190, 176, 176);
+    transform: scale(1.2);
+}
+
+.learn-button:hover{
+    background-color: rgb(190, 176, 176);
+    transform: scale(1.2);
+}
+
+.main-image{
+    max-width: 400px;
+    position: absolute;
+    top: 40px;
+    right: -40px;
+    transition: 0.4s;
+}
+
+.main-image:hover{
+    max-width: 650px;
+    transform: translate(-160px, 50px) rotateZ(42deg);
+    
+
+}
+
+main{
+    /* background: linear-gradient(to top right, #8A2387, #E94057, #F27121); */
+    background: linear-gradient(to top right, #01204a, #038fbd, #7ceeaa);
+    box-shadow: 0px 0px 10px black;
+    padding: 2%;
+    margin: 5% 10%;
+    z-index: 10;
+    position: relative;
+    height: 70vh;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    /* background: linear-gradient(to right, #B92B27, #1565C0); */
+    background: linear-gradient(to right, #29f763, #2cddbf, #4756e2, #211df7);
+
+    box-shadow: 0px 10px 10px black;
+    filter: blur(3px);
+    transform: skewY(15deg);
+    inset: 0;
+    z-index: 0;
+}
