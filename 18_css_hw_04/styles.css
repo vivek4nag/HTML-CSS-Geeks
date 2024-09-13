@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(165, 42, 42, 0.2);
+}
+
+nav{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d93e9e93-4e98-453e-bcd5-d8045cda0deb/dbok9em-6fdc14d7-1cac-47f7-a102-2b81733d84ea.jpg/v1/fill/w_1024,h_683,q_75,strp/biji_kopi_indonesia_by_roshvisual_dbok9em-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjgzIiwicGF0aCI6IlwvZlwvZDkzZTllOTMtNGU5OC00NTNlLWJjZDUtZDgwNDVjZGEwZGViXC9kYm9rOWVtLTZmZGMxNGQ3LTFjYWMtNDdmNy1hMTAyLTJiODE3MzNkODRlYS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.rikvT55MkcDjNj385e7EA6GBjbREDi_FZI9VODnpH50");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    width: 100vw;
+    height: 350px;
+    box-shadow: 0 0 10px 0 black;
+}
+
+#search{
+    position: sticky;
+    padding-left: 15px;
+    top: 10%;
+    left: 15%;
+    background-color: rgba(99, 18, 18,1);
+    box-shadow: 0 5px 5px 0 rgb(0, 0, 0);
+    color: beige;
+    height: 60px;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        cursor: pointer;
+
+        .img{
+            height: 150px;
+            width: 150px;
+            padding-bottom: 10px;
+        }
+
+        h4{
+            font-family: "Dancing Script", cursive;
+            font-size: x-large;
+            font-weight: 700;
+        }
+    }
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px 3px black;
+    transition: 0.3s;
+}
+
+img:hover{
+    /* transform: translate(-0.5em, -0.5em); */
+    transform: scale(1.1);
+    box-shadow: 0 8px 10px 10px black;
+    
+}
+
+.middle, .bottom{
+    background-color: rgb(165, 42, 42, 0.3);
+    margin: 5% 6%;
+    padding: 2%;
+    border-radius: 10px;
+    color: brown;
+    font-family: "Dancing Script", cursive;
+    font-weight: 600;
+    box-shadow: 0px 8px 8px brown;
+    line-height: 25px;
+    text-align: justify;
+    
+    p{
+        font-size: 20px;
+    }
+
+
+    h1{
+        padding-bottom: 30px;
+        font-size: xxx-large;
+        text-decoration: underline;
+    }
+}
