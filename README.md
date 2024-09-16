@@ -54,3 +54,6 @@
 
 # 19. Weekly test-4
 [click here to open Camping ki Dukan](https://vivek4nag.github.io/HTML-CSS-Geeks/19_weekly_test_4/)
+
+# 20 Cat Gallery
+[click here to open Cat Gallery](https://vivek4nag.github.io/HTML-CSS-Geeks/20_css_hw_06/)
