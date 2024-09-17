@@ -1,0 +1,37 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+    
+}
+
+.sidebar-link{
+    
+    height: 74px;
+    display: flex;
+    justify-content: center;/* centers the pics horizontally*/
+    align-items: center; /* centers the pics vertically*/
+    flex-direction: column; /*this will show the text below the pics*/
+    /*note- when we use flex direction column, the property of justify items & align items changes i.e. justify content centers vertically & align doese horizontally*/
+    
+}
+.sidebar-link:hover{
+    background-color: rgb(240, 239, 239);
+    cursor: pointer;
+}
+
+.sidebar-link img{ /*this line signifies ki we are only targetting the images inside the sidebar-link element. it won't affect other images on the pages*/
+    height: 24px;
+    margin-bottom: 4px;
+
+}
+.sidebar-link div{ /*like above this advanced CSS styling only targets the text inside the sidebar link*/
+    font-family: Roboto, Arial;
+    font-size: 10px;
+
+}
