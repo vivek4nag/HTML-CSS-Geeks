@@ -18,12 +18,15 @@
     margin: 0 auto;
     gap: 2.5%;
     text-align: justify;
+    -webkit-user-select: none; /* for safari :( */ 
+    user-select: none;
 
     grid-template-areas: 
     "d1 d1 d2 d3"
     "d4 d5 d5 d3"
     ;
 }
+-webkit-user-select
 
 .box{
     padding: 5%;
