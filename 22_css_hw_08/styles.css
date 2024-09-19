@@ -26,13 +26,12 @@
     "d4 d5 d5 d3"
     ;
 }
--webkit-user-select
 
 .box{
     padding: 5%;
     position: relative;
     transition: all 0.3s ease-in;
-    border-radius: 15px;
+    border-radius: 10px;
 
 }
 
