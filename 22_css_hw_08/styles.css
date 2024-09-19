@@ -1,0 +1,203 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    max-width: 100vw;
+    height: 100%;
+    display: grid;
+    background-color: #d1d9e2;
+    grid-template-columns: (4, 1fr) ;
+    grid-template-rows: 1fr 1fr;
+    padding:5% 10%;
+    margin: 0 auto;
+    gap: 2.5%;
+    text-align: justify;
+
+    grid-template-areas: 
+    "d1 d1 d2 d3"
+    "d4 d5 d5 d3"
+    ;
+}
+
+.box{
+    padding: 5%;
+    position: relative;
+    transition: all 0.3s ease-in;
+    border-radius: 15px;
+
+}
+.box:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px black;
+    filter: brightness(120%);
+    animation: box-animation 0.2s ease-in infinite;
+}
+
+@keyframes box-animation {
+    0%{
+        bottom:0;
+        left: 0;
+    }
+    50%{
+        bottom: 2px;
+        left: 2px;
+        right: 2px;
+    }
+    100%{
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.heading{
+    display: flex;
+    font-size: 0.6rem;
+    gap: 20px;
+    img{
+        width: 30px;
+        border-radius: 50%;
+    }
+    .name{
+        font-weight: 600;
+    }
+    .graduate{
+        font-weight: 200;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+
+.d1{
+    grid-area: d1;
+    background-color: #7541c9;
+    color: white;
+    
+    background-image: url("https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top 10% right 10%;
+
+    .d1-bold{
+        font-weight: 200;
+        font-size: 0.9rem;
+        padding: 2.5% 0;
+    }
+    .d1-light{
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.d2{
+    grid-area: d2;
+    background: #49556b;
+    color: white;
+    padding: 6%;
+
+    .d2-bold{
+        font-weight: 200;
+        font-size: 1.2rem;
+        padding: 3.5% 0;
+    }
+    .d2-light{
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+}
+
+.d3{
+    grid-area: d3;
+    background: #fff;
+    color: black;
+
+    .d3-bold{
+        font-weight: 200;
+        font-size: 0.9rem;
+        padding: 4% 0;
+    }
+    .d3-light{
+        padding: 0 5%;
+        font-size: 0.9rem;
+        color: rgba(92, 92, 92, 0.9);
+    }
+}
+
+.d4{
+    grid-area: d4;
+    background-color: #fff;
+
+    .d4-bold{
+        font-weight: 200;
+        font-size: 0.9rem;
+        padding: 5% 0;
+    }
+    .d4-light{
+        padding: 0 5%;
+        font-size: 0.9rem;
+        color: rgba(92, 92, 92, 0.9);
+    }
+}
+
+.d5{
+    grid-area: d5;
+    background-color: #19212e;
+    color: white;
+
+    .d5-bold{
+        font-weight: 200;
+        font-size: 0.9rem;
+        padding: 3.5% 0;
+    }
+    .d5-light{
+        font-size: 0.7rem;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .container{
+        grid-template-areas: 
+        "d1 d1 d2 d2"
+        "d3 d3 d3 d3"
+        "d4 d4 d5 d5"
+        ;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    
+    .container{
+        grid-template-areas: 
+        "d1 d1"
+        "d2 d3"
+        "d4 d3"
+        "d5 d5";
+
+        overflow-y: auto;
+    }
+}
+
+@media screen  and (max-width: 550px){
+    .container{
+        overflow-y: scroll;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "d1"
+        "d2"
+        "d3"
+        "d4"
+        "d5"
+        ;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
